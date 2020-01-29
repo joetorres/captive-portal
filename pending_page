@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content=""><meta name="author" content="">
+	<title>Wi-Fi Access</title>
+	<link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/assets/css/scrolling-nav.css" rel="stylesheet" /><script>
+        var reload_page = setTimeout(function () {
+            window.location.reload(1);
+        }, 10000);
+    </script>
+</head>
+<body data-spy="scroll" data-target=".navbar-fixed-top" id="page-top"><!-- Intro Section -->
+<section class="intro-section" id="intro" style="padding-top:20px">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div align="center"><img src="logo.png" style="width: 100px" /></div>
+
+<h2>Pending Access Request</h2>
+
+<p>Request Id: ${request_id}</p>
+
+<p>Dear ${firstName},</p>
+
+<p>Your request for Wi-Fi network access has been submitted for approval. The support team will contact you once your application has been reviewed.</p>
+
+<p>This page will automatically refresh every 10 seconds until your request is processed.</p>
+
+<p>If you wish to cancel your request, <a href="#!" onclick="deleteToken(); return false;">click here</a>.</p>
+</div>
+</div>
+</div>
+</section>
+<script src="/assets/js/jquery.js"></script><script src="/assets/js/bootstrap.min.js"></script><script src="/assets/js/jquery.easing.min.js"></script><script src="/assets/js/cp-scripts.js"></script></body>
+</html>
